@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 
-$primary: #D3E781;
+$primary: #D8E990;
 $secondary: #656C47;
 $success: #75665C;
 $info: #E1DBB8;
@@ -23,3 +24,8 @@ $h5-font-size: 1.44rem;
 $h6-font-size: 1.2rem;
 $p-font-size: 1rem;
 
+.star-icon {
+    color: #D8E990;
+  }
+
+@import "../node_modules/bootstrap/scss/bootstrap"

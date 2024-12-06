@@ -4,9 +4,380 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
+    <link rel="stylesheet" href="../css/custom.css">
+
 </head>
 <body>
-    
+    <header>   
+            <nav class="navbar navbar-expand-lg bg-body-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="/Images/belle-vie-logo.png" alt="logo" width="60" height="60">
+                    </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="menu.html">Menu</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    </div>
+                </div>
+                </div>
+            </nav>
+    </header>
+
+  <main>
+    <!-- Drinks Section -->
+    <section id="drinks" class=" container border border-secondary py-5">
+        <div class="container">
+            <h2 class="mb-4 text-center">Drinks</h2>
+            <!-- Grid Layout -->
+            <div class="row">
+                <!-- Left Side: Cards -->
+                <div class="col-lg-8">
+                    <div class="row g-4">
+                        <!-- Card 1 -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mocha</h5>
+                                    <p class="card-text">Perfect blend of coffee and chocolate, order hot or cold.</p>
+                                    <h6>$5.70</h6>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chai Latte</h5>
+                                    <p class="card-text">Hot or over ice, the perfect chai latte.</p>
+                                    <h6>$5.85</h6>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Caramel Macchiato</h5>
+                                    <p class="card-text">Hot or over ice, the caramel macchiato.</p>
+                                    <h6>$7.15</h6>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cappuccino</h5>
+                                    <p class="card-text">Hot or over ice, the perfect cappuccino.</p>
+                                    <h6>$5.85</h6>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Drip Coffee</h5>
+                                    <p class="card-text">The best coffee to start your day off right.</p>
+                                    <h6>$2.60</h6>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Latte</h5>
+                                    <p class="card-text">Hot or over ice, order your latte with any flavour.</p>
+                                    <h6>$5.85</h6>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Side: Circular Image -->
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <img 
+                        src="/Images/coffee.jpg" 
+                        class="rounded-circle img-fluid" 
+                        style="width: 480px; height: 480px;" 
+                        alt="coffee">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="baked-goods" class="text-white container bg-secondary py-5 ">
+      <div class="container">
+          <h2 class="mb-4 text-center">Baked Goods</h2>
+          <!-- Grid Layout -->
+          <div class="row">
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+              <img 
+                  src="/Images/pastry.jpg" 
+                  class="rounded-circle img-fluid" 
+                  style="width: 480px; height: 480px;" 
+                  alt="coffee">
+          </div>
+              <div class="col-lg-8">
+                  <div class="row g-4 text-white">
+                      <!-- Card 1 -->
+                      <div class="col-md-6 col-lg-4">
+                          <div class="card h-100 bg-secondary text-white">
+                              <div class="card-body">
+                                  <h5 class="card-title">Lava Cake</h5>
+                                  <p class="card-text">Molten chocolate cake with a liquid chocolate center.</p>
+                                  <h6>$5.70</h6>
+                                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- Card 2 -->
+                      <div class="col-md-6 col-lg-4">
+                          <div class="card h-100 bg-secondary text-white">
+                              <div class="card-body">
+                                  <h5 class="card-title">Chai Latte</h5>
+                                  <p class="card-text">Hot or over ice, the perfect chai latte.</p>
+                                  <h6>$5.85</h6>
+                                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- Card 3 -->
+                      <div class="col-md-6 col-lg-4">
+                          <div class="card h-100 bg-secondary text-white">
+                              <div class="card-body">
+                                  <h5 class="card-title">Croissant</h5>
+                                  <p class="card-text">Choice of, Rum almond, Butter, Chocolate, Almond</p>
+                                  <h6>$4.40 - $6.00</h6>
+                                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- Card 4 -->
+                      <div class="col-md-6 col-lg-4">
+                          <div class="card h-100 bg-secondary text-white">
+                              <div class="card-body">
+                                  <h5 class="card-title">Slice of Cheese Cake</h5>
+                                  <p class="card-text">Choice between classic or strawberry.</p>
+                                  <h6>$6.10 - $6.30</h6>
+                                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- Card 5 -->
+                      <div class="col-md-6 col-lg-4">
+                          <div class="card h-100 bg-secondary text-white">
+                              <div class="card-body">
+                                  <h5 class="card-title">Danish</h5>
+                                  <p class="card-text">Choice of, Cinnamon, Pear, Apricot, Cherry</p>
+                                  <h6>$5.45</h6>
+                                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- Card 6 -->
+                      <div class="col-md-6 col-lg-4">
+                          <div class="card h-100 bg-secondary text-white">
+                              <div class="card-body">
+                                  <h5 class="card-title">Fruit tart</h5>
+                                  <p class="card-text">Choice of,  Raspberry, Lemon, Pear, Fig puff</p>
+                                  <h6>$9.35</h6>
+                                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>  
+          </div>
+      </div>
+  </section>
+
+  <section id="sandwiches" class=" container border border-secondary py-5">
+    <div class="container">
+        <h2 class="mb-4 text-center">Sandwiches</h2>
+        <!-- Grid Layout -->
+        <div class="row">
+            <!-- Left Side: Cards -->
+            <div class="col-lg-8">
+                <div class="row g-4">
+                    <!-- Card 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Turkey Apple Brie Sandwich</h5>
+                                <p class="card-text">Treat your taste buds to our delicious fresh turkey, apple and brie sandwich.</p>
+                                <h6>$13.65</h6>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Bacon, Egg & Cheddar On A Bagel</h5>
+                                <p class="card-text">Mayonnaise,bacon,egg and cheddar cheese.</p>
+                                <h6>$9.25</h6>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Avocado BLT Bagel</h5>
+                                <p class="card-text">Choice everything or sesame bagel.</p>
+                                <h6>$10.40</h6>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Avocado Lettuce Tomato Sandwich</h5>
+                                <p class="card-text">Avocado, lettuce, tomato, cheddar, mayonnaise, served on multigrain sourdough.</p>
+                                <h6>$14.95</h6>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Smoked Salmon Bagel</h5>
+                                <p class="card-text">Smoked salmon, cream cheese, red onion, arugula.</p>
+                                <h6>$10.40</h6>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Spicy Tuna Wrap</h5>
+                                <p class="card-text">Tuna, spicy mayo, scrambled egg, pickle, red onion.</p>
+                                <h6>$4.55</h6>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Side: Circular Image -->
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <img 
+                    src="/Images/sandwich.jpg" 
+                    class="rounded-circle img-fluid" 
+                    style="width: 480px; height: 480px;" 
+                    alt="coffee">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="soups-salads" class="text-white container bg-secondary py-5 ">
+    <div class="container">
+        <h2 class="mb-4 text-center">Soups and Salads</h2>
+        <!-- Grid Layout -->
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-center justify-content-center">
+            <img 
+                src="/Images/soup.jpg" 
+                class="rounded-circle img-fluid" 
+                style="width: 480px; height: 480px;" 
+                alt="coffee">
+        </div>
+            <div class="col-lg-8">
+                <div class="row g-4 text-light">
+                    <!-- Card 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 bg-secondary text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Mixed Greens Salad</h5>
+                                <p class="card-text">Mixed greens, fruits, nuts, goat cheese, and house-made vinaigrette.</p>
+                                <h6>$10.40</h6>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 bg-secondary text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Caesar Salad</h5>
+                                <p class="card-text">Romaine lettuce, Parmesan, croutons, olive oil, and Caesar dressing.</p>
+                                <h6>$9.50</h6>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 bg-secondary text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Oatmeal Bowl</h5>
+                                <p class="card-text">Oatmeal bowl, high fiber oats topped with blueberry sauce, fresh fruit, and syrup .</p>
+                                <h6>$7.95</h6>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 bg-secondary text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Fresh Fruit Salad</h5>
+                                <p class="card-text">Assortment of the finest fruit.</p>
+                                <h6>$8.25</h6>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 bg-secondary text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Roasted Butternut Squash</h5>
+                                <p class="card-text">Butternut squash soup topped with pumpkin seeds, and a side of toasted baguette.</p>
+                                <h6>$5.45</h6>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+</section>
+</main>
+
+<footer class="d-flex py-3">
+    <p class="d-flex">@BelleVieCafe.com</p>
+        <ul>
+            <li class="d-flex">
+                <span class="material-icons-outlined">photo_camera</span>
+                <span class="material-icons-outlined">mail</span>
+            </li>
+        </ul>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

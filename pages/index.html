@@ -4,20 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+      header {
+        background-image: url(../Images/homepage-hero.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+      }
+    </style>
 </head>
 <body>
-    <header>
+        <nav class="navbar navbar-expand-lg bg-body-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img src="/Images/belle-vie-logo.png" alt="logo" width="60" height="60">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link" href="menu.html">Menu</a>
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+      <header>
+        <div class="container">
+          <div class="hero p-4 my-2 rounded-3">
+            <div class="container-fluid align-items-center">
+                <h3 class="text-light">Specialty Baked Items</h3>
+                <h1 class="text-light">Fresh To You Daily</h1>
+                <p class="col-md-5 text-light">To learn and hear more about Belle Vie Bakery’s features and updates sign up for future emails and newsletters</p>
+                <button class="animate__animated animate__pulse btn btn-success btn-m" type="button">Sign Up Now</button>
+            </div>
+          </div>
+        </div>
+      </header>
 
-    </header>
+      <section class="py-5">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-lg-6">
+              <img class="img-fluid" src="/Images/whitby-store.jpg" alt="" >
+            </div>
+            <div class="col-lg-6 align-self-center">
+              <h2 class="mb-4">About Us</h2>
+              <p>Welcome to Belle Vie Bakery, we are a cozy café and bakery dedicated to bringing the rich flavours and traditions of France to your plate. Our team of skilled bakers handcrafts a delightful array of sandwiches, pastries, breads, and desserts—always baked fresh daily to ensure the finest quality.
+                Whether you're stopping by for a croissant and coffee or indulging in a beautifully layered gâteau, our menu reflects a passion for authentic techniques. Join us at Belle Vie to experience the simple joy of fresh, flavourful baked goods made with love and the finest ingredients.
+                Come savour a little taste of France in Durham Region!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="values" class="py-5 bg-primary">
+        <div class="container-fluid text-center">
+          <h2 class="mb-4">Our Values</h2>
+          <p class="mx-auto" style="max-width: 800px;">At Belle Vie Bakery, our values are the most important. We are committed to delivering quality and freshness by using the finest ingredients and baking everything from scratch daily. We focus on French cuisine and reflect this in our dedication to following traditional techniques. We value our community, striving to create a warm and welcoming space where our customers can feel at home. Sustainability is important to our bakery, from sourcing local ingredients to reducing waste in our processes. Above all, we bring passion to every creation, having classic French flavours to make each visit special. These values define who we are and shape the experience we offer to our customers every day.</p>
+        </div>
+      </section>
+
+      <section id="three-column-section" class="py-5 text-white bg-secondary">
+        <div class="container">
+          <h2 class="text-center py-5">Customer Reviews</h2>
+
+          <div class="row">
+            <div class="col-sm">
+              <span class="star-icon material-icons-outlined">star</span><span class="star-icon material-icons-outlined">star</span><span class="star-icon material-icons-outlined">star</span><span class="star-icon material-icons-outlined">star</span><span class="star-icon material-icons-outlined">star</span>
+              <p>Got a pesto danish, smoked salmon croissant sandwich, and one of the plum tarts. Everything was so tasty and the pastry was buttery and flakey. The tart had a custard layer that was smooth and creamy - would definitely recommend this little bakery!</p>
+              <p>-Jessie Lin</p>
+            </div>
+            <div class="col-sm">
+              <span class="star-icon material-icons-outlined">star</span><span class="star-icon material-icons-outlined">star</span><span class="star-icon material-icons-outlined">star</span><span class="star-icon material-icons-outlined">star</span><span class="star-icon material-icons-outlined">star</span> 
+              <p>Visited Belle Vie Cafe & Bakery on Labour Day when many shops were closed so they were incredibly busy. Despite how busy they were I found the staff extremely hardworking and provided us a lovely visit. The food was delicious and we brought some baguettes home which are top notch. Prices are also surprisingly reasonable for how nice the place is! We will be back!</p>
+              <p>-Allison Sablotny</p>
+            </div>
+            <div class="col-sm">
+              <span class="star-icon material-icons-outlined">star</span><span class="star-icon material-icons-outlined">star</span><span class="star-icon material-icons-outlined">star</span><span class="star-icon material-icons-outlined">star</span><span class="star-icon material-icons-outlined">star</span>
+              <p>My absolute favourite bakery this side of Toronto. I love that they repurposed the French restaurant that once stood here and that left such a hole in the food scene and community when the owners retired. The bakery is delightful and has lovely service and food items. I’ve enjoyed breakfast and lunch items too here.</p>
+              <p>-Robert Levesque</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
     <main>
 
 
     </main>
 
-    <footer>
-        
-    </footer>
+    <footer class="d-flex py-3">
+      <p class="d-flex">@BelleVieCafe.com</p>
+          <ul>
+              <li class="d-flex">
+                  <span class="material-icons-outlined">photo_camera</span>
+                  <span class="material-icons-outlined">mail</span>
+              </li>
+          </ul>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
